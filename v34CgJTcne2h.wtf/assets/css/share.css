@@ -22,3 +22,21 @@
 .share__img:first-child {
   padding-right: 0;
 }
+.fixed-buttons {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 20px;
+  z-index: 9999;
+}
+
+.fixed-buttons a {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fixed-buttons img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%; /* Optional: Make the buttons circular */
+}
