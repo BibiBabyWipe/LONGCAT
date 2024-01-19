@@ -12,7 +12,7 @@
 
 .share__img {
   cursor: pointer;
-  display: inline-block;
+  display: inline-block !important;
   height: 30px;
   padding: 0 5px;
   vertical-align: middle;
