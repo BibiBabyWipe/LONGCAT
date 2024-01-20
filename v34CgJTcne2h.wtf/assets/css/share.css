@@ -28,6 +28,7 @@
   right: 0;
   margin: 20px;
   z-index: 9999;
+  flex-direction: row;
 }
 
 .fixed-buttons a {
@@ -38,5 +39,5 @@
 .fixed-buttons img {
   width: 30px;
   height: 30px;
-  border-radius: 50%; /* Optional: Make the buttons circular */
+  border-radius: 20%;
 }
